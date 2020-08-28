@@ -1,0 +1,103 @@
+@media(max-width:767px){
+  html{
+    font-size: 50%;
+  }
+  .mobile-title-gallery{
+    display: none !important;
+  }
+  .logo-details{
+    margin-bottom: 3rem;
+  }
+  .social-details{
+    margin-top: 3rem;
+  }
+  #home2-banner .hero-text{
+    margin-top: -5rem;
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+}
+
+@media(max-width:991px){
+  .section-padding{
+    padding: 5rem 0;
+  }
+  .single-promo-box{
+    margin-top: 0rem;
+  }
+  #web-details .details-content{
+    margin-top: 2rem;
+  }
+  .title-gallery{
+    display: none;
+  }
+  #service:before{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #service .single-service-item:hover:before{
+    position: absolute;
+    content: '';
+    right: 100%;
+    top: 0;
+    width: 5000%;
+    height: 100%;
+    background: #0bbbc1; 
+  }
+  #service .single-service-item h4{
+    color: #fff;
+  }
+  #service .single-service-item p{
+    color: #cfcdcd;
+  }
+ #service .service-heading{
+   display: block;
+   padding: 2rem 0;
+ }
+ #service .service-heading h2{
+   color: #0bbbc1;
+ }
+ #service .service-heading p{
+  color: #cfcdcd;
+}
+#work-banner .work-details p{
+  margin-bottom: 1.5rem;
+}
+
+#mynav{
+  background: rgba(0, 0, 0, 0.9);
+  margin-top: 2rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border-bottom: .1rem solid #0bbbc1;
+}
+#mynav ul{
+  padding-bottom: 2rem !important;
+}
+#mynav ul li a{
+  padding: 1rem 2.5rem !important;
+  text-align: center;
+  font-size: 2rem !important;
+}
+.search-bar{
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+  .mobile-title-gallery{
+    display: block !important;
+    text-align: center;
+    margin-top: 15rem;
+  }
+}
+
